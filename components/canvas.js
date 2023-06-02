@@ -72,11 +72,11 @@ export default function Canvas({
         <div className="animate-in fade-in duration-700 text-left">
           <button className="lil-button" onClick={undo}>
             <UndoIcon className="icon" />
-            Undo
+            撤回
           </button>
           <button className="lil-button" onClick={reset}>
             <TrashIcon className="icon" />
-            Clear
+            清空
           </button>
         </div>
       )}
