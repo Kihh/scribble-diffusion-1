@@ -27,7 +27,7 @@ export default function PromptForm({
           name="prompt"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Describe the image you want to create..."
+          placeholder="输入关于生成图片的关键词..."
           className="block w-full flex-grow rounded-l-md"
         />
 
